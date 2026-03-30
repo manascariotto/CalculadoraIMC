@@ -1,0 +1,85 @@
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    line-height: 1.6;
+    color:antiquewhite;
+    background-color: black;
+    background: linear-gradient(110deg, rgb(3, 23, 152), rgb(202, 11, 186));
+}
+header {
+    padding: 20px;
+    background-color: rgb(47, 4, 69);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+header p {
+    color:rgb(219, 194, 160);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+section {
+    margin: 100px auto;
+    padding: 20px;
+    display:grid;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    place-items: center;
+    background: linear-gradient(100deg, black, blue);
+}
+
+#resultado {
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    margin-top: 10px;
+}
+
+section p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.alerta {
+    color: red;
+    font-size: 20px;
+}
+
+.ideal {
+    color: #2ecc71;
+    font-size: 20px;
+}
+
+#medico {
+    text-align: center;
+}
+
+footer {
+    color: rgb(207, 198, 198);
+    text-align: center;
+}
+
+footer a {
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+
