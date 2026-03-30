@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <p>O Índice de Massa Corporal (IMC) é uma medida internacional, adotada pela OMS, que relaciona peso e altura para avaliar se um adulto está no peso ideal, com sobrepeso ou obesidade. Calcula-se dividindo o peso (kg) pela altura ao quadrado (m²). É usado para monitorar a saúde, identificar riscos cardiovasculares e guiar intervenções nutricionais precoces.</p>
+    </header>
+    <section>
+        <label for="peso">Peso (em kg): </label>
+        <input type="number" id="peso" >
+
+        <label for="altura">Altura (em metros): </label>
+        <input type="number" id="altura" >
+        <br>
+        <button onclick="calcularImc()">Calcular</button>
+
+        <p id="resultado"></p>
+        <p id="devolutiva"></p>
+        <br>
+        <p id="medico"></p>
+    </section>
+    <footer>
+        <br><br>
+        <p>&copy; 2026 Maria Scariotto - Todos os direitos reservados</p>
+        <p>Conecte-se comigo:</p>
+        <a href="">LinkedIn</a> | 
+        <a href="">GitHub</a>
+    </footer>
+
+</body>
+</html>
